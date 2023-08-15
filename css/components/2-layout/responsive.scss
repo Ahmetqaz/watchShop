@@ -1,0 +1,53 @@
+@media (max-width: 1360px) {
+  @include layouts-1360;
+  @include footer-1360;
+}
+@media (max-width: 1160px) {
+  .autoContainer {
+    padding: 0 40px;
+  }
+  @include footer-1160;
+}
+@media (max-width: 1025px) {
+  .autoContainer {
+    padding: 0 30px;
+  }
+  @include header-1025;
+  @include layouts-1025;
+}
+
+@media (max-width: 940px) {
+  .autoContainer {
+    padding: 0 25px;
+  }
+  @include typography-940;
+  @include components-940;
+  @include layouts-940;
+}
+@media (max-width: 768px) {
+  .autoContainer {
+    padding: 0 20px;
+  }
+  @include typography-768;
+  @include layouts-768;
+  @include footer-768;
+}
+@media (max-width: 580px) {
+  .autoContainer {
+    padding: 0 15px;
+  }
+  ._hideMob {
+    display: none;
+  }
+}
+@media (max-width: 460px) {
+  @include typography-460;
+  @include header-460;
+  @include layouts-460;
+  @include footer-460;
+}
+@media (max-width: 390px) {
+  @include typography-390;
+  @include layouts-390;
+  @include footer-390;
+}

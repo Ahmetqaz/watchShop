@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Typography */
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 48px;
+  small {
+    font-size: 20px;
+    color: $primary;
+  }
+}
+h3 {
+  font-size: 34px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+p {
+  line-height: 1.8em;
+  &._lg {
+    font-size: 22px;
+  }
+}
+@mixin typography-940 {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@mixin typography-768 {
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 16px;
+    &._lg {
+      font-size: 18px;
+    }
+  }
+}
+
+@mixin typography-460 {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+    &._lg {
+      font-size: 16px;
+    }
+  }
+}
+@mixin typography-390 {
+  h2 {
+    font-size: 24px;
+    small {
+      font-size: 14px;
+    }
+  }
+}
